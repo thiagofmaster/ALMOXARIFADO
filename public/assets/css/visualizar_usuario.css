@@ -1,0 +1,77 @@
+.section-body-content {
+    width: 100%;
+}
+
+.tabela_de_registros {
+    width: 80%;
+    margin: 0px auto;
+    border-collapse: collapse;
+    /* border-radius: 50px; */
+    background-color: #a19600;
+}
+
+.tabela_de_registros th,
+td {
+    border: 2px solid;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #a19600;
+
+}
+
+.tabela_de_registros td {
+    border-bottom: 2px solid #ffee01;
+}
+
+.tabela_de_registros tr:hover {
+    background-color: rgb(255, 234, 0);
+}
+
+.tabela_de_registros th {
+    padding: 10px;
+
+}
+
+.responsive {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+
+    overflow-y: auto;
+
+}
+
+.header_table {
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+}
+
+.tabela_de_registros a {
+    text-decoration: none;
+    /* border: 1px solid rgba(0,0,0,.5); */
+    border: 0;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 6px;
+
+}
+
+.tabela_de_registros a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+.color-achor-editar {
+    background-color: green;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color-achor-deletar {
+    background-color: tomato;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}

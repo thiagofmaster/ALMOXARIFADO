@@ -1,0 +1,167 @@
+/* Qual o comportamento a tag <p> vai apresentar quando renderizar no browser
+a: vai alinha o texto a direita e adicionar uma cor vermelha
+b: vai deixa o texto em negrito e com a cor vermelha
+c: vai alinhar o texto ao centro e aplicar uma cor vermelha
+d: vai adicionar uma borda vermelha, e alinhar no texto a esquerda
+
+p {
+  color: red;
+  text-align: center;
+}
+*/
+
+/* Qual o comportamento a propriedade "margin" aplica no elemento HTML
+adiciona uma cor de fundo em um elemento HTML
+adiciona uma margem interna ao elemento HTML
+adiciona uma margem exerna ao elemento HTML
+adiciona uma borda no elemento HTML
+*/
+
+
+/* Marque qual das sintaxe do CSS esta correta?
+a: p {propriedade: value}
+b: {propriedade= value} p
+c: p {propriedade; value}
+d: p { value: propriedade }
+*/
+
+/* Escolhar a sintaxe correta para definição do foreach no PHP
+foreach{$array as $value}{ echo $value }
+foreach($array as $value) { echo $value }
+foreach{$array as $value}  [echo $value]
+foreach($array as $key => $value) {echo $value}
+*/
+
+/* Marque verdadeiro ou false, se esta correta a sintaxe PHP na imagem abaixo?
+foreach($i=0; $i < 5; $i++) {
+  echo $i
+}
+*/
+
+
+/* Qual o valor será exibido na saido do comando abaixo:
+Alernativa: true,false,true,true
+
+var_dump(5 >= 10 && 10 !== "dez" || 1 === 1);
+var_dump(5 >= -10 && 10 === "one" || 1 === "1");
+var_dump(5 >= 5 && [] !== [] || 1 === 1);
+var_dump(50 >= 10 && count([1]) === 1 || 1 !== 1);
+*/
+
+/* O atributo "id" pode ser usado em mais de uma tag HTML?
+A: Verdadeiro
+B: Falso
+*/
+
+
+/* O atributo "src" carrega o caminho de um arquivo externo?
+A: Verdadeiro
+B: Falso
+*/
+
+/* Qual das possiveis opções de inserir o css no HTML mostra a imagem?
+a: global
+b: interna
+c: externa
+d: inline
+*/
+
+
+.cx_main_form_cadastrar>h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+#main_form_cadastrar {
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+#main_form_cadastrar div input {
+  width: 100%;
+  height: 30px;
+  font-weight: 700;
+  font-size: 14pt;
+  margin: 0px 0 10px 0px;
+  border: 0;
+  background-color: #f1efce;
+  border-radius: 3px;
+  padding: 18px 0px 18px 8px;
+}
+
+.btn_submit_form_cad {
+  display: flex;
+  justify-content: end;
+}
+
+.btn_submit_form_cad button {
+  justify-self: end;
+  padding: 10px;
+  border: 0;
+  background-color: #d2691e;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn_submit_form_cad button:hover {
+  background-color: #ff6a00;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* pagina de editar usuario */
+
+.cx_main_form_link_perfil {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cx_main_form_link_perfil a {
+  text-decoration: none;
+  color: #292601;
+  background-color: #817602;
+  padding: 20px;
+
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cx_main_form_link_perfil a:hover {
+  color: #a2a1a1;
+  cursor: pointer;
+}
+
+.layoutTelefone {
+  display: flex;
+  margin: 10px 0 10px 0;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.layoutTelefone button {
+  border: 0;
+  border-radius: 5px;
+  background-color: gray;
+  width: 100px;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #252525;
+  font-weight: bold;
+  font-size: 9pt;
+  padding: 3px;
+
+  border: 1px solid #313131;
+}
+
+.layoutTelefone button:hover {
+  text-decoration: underline;
+  color: #eeebeb;
+  text-shadow: 10px 2px 15px #dbd3d3;
+  transition-duration: 1s;
+  border-color: #a5a4a4;
+}

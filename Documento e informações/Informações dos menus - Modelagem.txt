@@ -1,0 +1,81 @@
+MENU
+
+Dasboard ( Grafico com relatorio de entrada 
+	 ( grafico com as solicitações das movimentações
+	movimentações do estoque 
+	requisições das filias dos dia 
+
+Empresas 
+Filial  > Listar > Cadastrar > Editar > Excluir
+Pessoa  > Listar > Cadastrar > Editar > Excluir
+fornecedor  > Listar > Cadastrar > Editar > Excluir
+produto  > Listar > Cadastrar > Editar > Excluir
+cliente  > Listar > Cadastrar > Editar > Excluir
+
+
+
+Compras ( Relatorio de pedidos)  < Lista dos pedidos 
+	DESCRIÇÃO DO PEDIDO
+	CÓDIGO PEDIDO
+	Ativo
+	FABRICANTE
+	NCM CODIGO
+	TIPO DE REFERÊNCIA
+	FORMAT CATEGORIAS
+	CUSTO R$
+	VENDA R$
+	ESTOQUE MÍNIMO
+	UNIDADE MEDIDA
+	( Planejamento de Compra ) < Alimentado pelas informações de estoque minimo
+
+
+Estoque ( Lista de produtor ) > Lista de produtos 
+	DESCRIÇÃO
+	CÓDIGO
+	ATIVO
+	FABRICANTE
+	NCM CODIGO
+	TIPO DE REFERÊNCIA
+	FORMAT CATEGORIAS
+	CUSTO R$
+	VENDA R$
+	ESTOQUE MÍNIMO
+	UNIDADE MEDIDA
+
+Relatorio > Saida de produtos
+	  > Entrada de produtos
+	  > Trasferencia
+	  > Empresa
+	  > Compras
+	  > Estoque
+	  > Pessoas
+
+
+
+
+
+
+niveis_acesso > 
+
+setor > vendas, estoque, financeiro id_usuario
+
+usuario nome, cpf, genero, login, senha, email staus(rua, numero, bairro, cep, cidade, estado)
+
+(cliente) 
+
+produtos  > nome, valor, imagem, status qtd 
+
+entrada > id_produto, data_entrada, qtd id_usuario, motivo
+
+saida  id_produto, data_saida, qtd id_usuario, motivo
+
+vendas    > id, produto, valor, data_venda id_usuario, cliente 
+
+historico_movimentação > 
+
+fornecedor> nome, cnpj, email, status
+
+
+
+
+

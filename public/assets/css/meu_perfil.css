@@ -1,0 +1,69 @@
+.perfil-title {
+    text-align: right;
+}
+
+.perfil-title h1 {
+    margin-right: 20px;
+}
+
+.perfil-usuario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.perfil-usuario-image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.perfil-usuario-image img {
+    border-radius: 110px;
+    width: 200px;
+    height: 180px;
+}
+
+.perfil-usuario-gerenciar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.perfil-usuario-meu-endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+
+.perfil-usuario-meus-dados {
+    margin-bottom: 10px;
+    margin: 50px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.perfil-usuario-gerenciar a {
+    text-decoration: none;
+    color: #4B536C;
+    padding: 15px;
+    background-color: #1E212B;
+    border: 1px solid #1E212B;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.perfil-usuario-gerenciar a:hover {
+    color: #312f2f;
+}
